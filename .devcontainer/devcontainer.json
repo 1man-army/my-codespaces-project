@@ -1,0 +1,15 @@
+{
+  "name": "My Codespaces Project",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
+  "features": {
+    "node": "lts"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "npm install"
+}

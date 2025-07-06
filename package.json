@@ -1,0 +1,17 @@
+{
+  "name": "my-codespaces-project",
+  "version": "1.0.0",
+  "description": "A project set up for use with GitHub Codespaces.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "puppeteer": "^24.11.2"
+  }
+}
